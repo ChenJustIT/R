@@ -4,15 +4,9 @@
 
 - **Data Cleaning:** I started by cleaning the Wealth of Nations dataset, addressing missing values, handling duplicates, and ensuring data consistency. The cleaned dataset provides a reliable foundation for analysis.
 
-- **Data Transformation:** Through Excel, I applied various data transformation techniques, such as pivot tables, data shaping, and formula-driven calculations. This step enabled me to structure the data for further analysis.
-
 - **Critical Thinking:** Analyzing the dataset involved critical thinking to identify key insights and trends. I conducted exploratory data analysis to uncover patterns and outliers, contributing to the project's overall success.
 
 - **Data Visualization:** With Tableau, I created interactive and insightful dashboards to effectively communicate the findings. The visualizations provide a user-friendly way to explore the data and draw meaningful conclusions.
-
-## Tableau Dashboards
-
-Explore the data visualizations created with Tableau:
 
 ## Getting Started
 Remember to follow the workflow that we used in the workshop,as seen below:
@@ -24,35 +18,51 @@ Remember to follow the workflow that we used in the workshop,as seen below:
 The Wealth of Nations dataset 
 
 ## Import data, set relationships and check data types.
-**You have three sheets and the common column for all of them is country, so the visual arrangement of the sheets does not matter Only the columns that you use to create the relationship matters. You can arrange the sheets in a straight line as seen below:**
+You have three sheets and the common column for all of them is country, so the visual arrangement of the sheets does not matter Only the columns that you use to create the relationship matters. You can arrange the sheets in a straight line as seen below:
 ![image](https://github.com/ChenJustIT/Tableau-Project-National_Wealth_Analysis/assets/150026038/066bea10-1e48-48aa-bf50-c4e41cbc0f45)
-**Or you can arrange it like this:**
+
+Or you can arrange it like this:
+
 ![image](https://github.com/ChenJustIT/Tableau-Project-National_Wealth_Analysis/assets/150026038/5c6e630b-ffda-4576-a36d-05f665f8d21b)
 
 
 ### I am now ready to create charts. 
-#### Client Requirements: The client is colour blind and requested you to bear this in mind when building your dashboard. The client is only interested in the top 20 highest ranking countries. All your visuals should be for the top 20 highest ranking countries.  As you create your charts, if you see a little gray box containing a count of null values, select the filter option
+#### Client Requirements: 
+The client is colour blind and requested you to bear this in mind when building your dashboard. The client is only interested in the top 20 highest ranking countries. All your visuals should be for the top 20 highest ranking countries.  As you create your charts, if you see a little gray box containing a count of null values, select the filter option
 
 #### Best practices: 
-**• Always add a title to the dashboard.**
-**• Titles for graphs should be short but informative.**
-**• Remember the Gestalt principles and apply them where appropriate:**
+
+• Always add a title to the dashboard.
+
+• Titles for graphs should be short but informative.
+
+• Remember the Gestalt principles and apply them where appropriate:
+
 ![image](https://github.com/ChenJustIT/Tableau-Project-National_Wealth_Analysis/assets/150026038/3236ba2d-4cf5-4d8d-a2ee-47cc12c0b28e)
-**Source: https://www.toptal.com/designers/ui/gestalt-principles-of-design**
+
+Source: https://www.toptal.com/designers/ui/gestalt-principles-of-design
 
 • Use sensible fields to create your chart.
-• Great resources for colour blind friendly palettes in Tableau: 
-5 Tips on Designing Colorblind-Friendly Visualizations (tableau.com)
-Best Practices for Designing Accessible Views - Tableau
-• For aggregations such as averages, use a card.
-• Use calculated fields to save space and keep only the highest/lowest values. 
-• If you are creating a map, remember to manually set locations for your map using map settings.
-• Do not ignore or drop negative values.
-• Do not convert negative values to absolute values.
-• The year of information column can be a whole number. It does not necessarily need to be of 
-type date/time.
 
-### The visuals can also be viewed on Public Server as National Wealth:  https://public.tableau.com/app/profile/x83711253
+• Great resources for colour blind friendly palettes in Tableau: 
+
+5 Tips on Designing Colorblind-Friendly Visualizations (tableau.com)
+
+Best Practices for Designing Accessible Views - Tableau
+
+• For aggregations such as averages, use a card.
+
+• Use calculated fields to save space and keep only the highest/lowest values. 
+
+• If you are creating a map, remember to manually set locations for your map using map settings.
+
+• Do not ignore or drop negative values.
+
+• Do not convert negative values to absolute values.
+
+• The year of information column can be a whole number. It does not necessarily need to be of type date/time.
+
+### The visuals below can also be viewed on Public Server as National Wealth:  https://public.tableau.com/app/profile/x83711253
      
 ## Visual 1: GDP
  
